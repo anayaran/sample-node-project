@@ -14,7 +14,7 @@ on:
 jobs:
   build:
 
-    runs-on: actions-runner
+    runs-on: self-hosted
 
     strategy:
       matrix:
